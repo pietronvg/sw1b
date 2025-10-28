@@ -8,19 +8,22 @@
     <link href="css/sidebar/sidebars.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
+<div class="container">
         <div class="row">
             <div class="col-3">
                 <ul class="list-group">
+            <ul class="list-group">
                     <li class="list-group-item">
                         Listagem
+                        <a href="instalar.php">
+                            Instalação do banco de dados
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        Listagem do banco
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
-
-
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="sidebars.js" class="astro-vvvwv3sm"></script>
 </body>
