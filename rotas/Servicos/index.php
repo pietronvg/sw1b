@@ -14,7 +14,7 @@ $MetodoHTTP = $_SERVER['REQUEST_METHOD'];
 
 switch ($MetodoHTTP) {
     case 'GET':
-        $sql = "Select * from CLIENTES";
+        $sql = "Select * from SERVICOS";
         $resultado = $conexao->query($sql);
         if($resultado->num_rows > 0)
         {
